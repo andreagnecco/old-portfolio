@@ -36,7 +36,7 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     font-family: "Press Start 2P";
     display: inline-block;
     border-radius: 3px;
