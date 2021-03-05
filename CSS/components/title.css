@@ -1,11 +1,11 @@
-h1 {
+.title {
     font-family: "Press Start 2P";
     font-size: 40px;
     color: #ffbf36;
     text-shadow: 4px 4px 0 #17111a;
 }
 
-h2 {
+.subtitle {
     font-family: "Press Start 2P";
     font-size: 30px;
     color: #FFF;
