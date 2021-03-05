@@ -9,6 +9,10 @@
     margin-right: 30px;
 }
 
+.action:hover {
+    opacity: 0.6;
+}
+
 .action::before {
     content: "";
     background-color: #ffbf36;

@@ -5,6 +5,11 @@
     text-shadow: 4px 4px 0 #17111a;
 }
 
+.title.-second {
+    color: #FFF;
+    text-align: center;
+}
+
 .subtitle {
     font-family: "Press Start 2P";
     font-size: 30px;
