@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    font-family: 'Press Start 2P';
+    font-family: "Press Start 2P", sans-serif;
     font-size: 15px;
     border-radius: 3px;
     background-color: #ffbf36;
