@@ -1,0 +1,28 @@
+.project-view {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.project-view .icon {
+    display: block;
+    box-shadow: 10px 
+    10px 0 #17111a;
+    filter: contrast(150%);
+    margin-bottom: 20px;
+    border: 5px solid #17111a;
+}
+
+
+.project-view .icon:hover {
+    display: block;
+    box-shadow: 10px 
+    10px 0 #17111a;
+    filter: none;
+    pointer-events;
+}
+
+.project-view .title {
+    text-align: center;
+    color: #FFF;
+}
+

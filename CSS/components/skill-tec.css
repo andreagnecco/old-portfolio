@@ -1,11 +1,6 @@
 .skill-tec {
     display: flex;
-
-}
-
-.skill-tec .icon {
-    margin-right: 25px;
-    width: 80px;
+    justify-content: space-between;
 }
 
 .skill-tec .icon:hover {
