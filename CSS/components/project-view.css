@@ -7,7 +7,6 @@
 .project-view .project {
     display: block;
     box-shadow: 10px 10px 0 #17111a;
-    filter: contrast(150%);
     margin-bottom: 20px;
 }
 
@@ -16,7 +15,7 @@
     display: block;
     box-shadow: 10px 
     10px 0 #17111a;
-    filter: none;
+    filter: contrast(150%);
 }
 
 .project-view .title {
