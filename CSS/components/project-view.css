@@ -4,17 +4,15 @@
     text-decoration: none;
 }
 
-.project-view .icon {
+.project-view .project {
     display: block;
-    box-shadow: 10px 
-    10px 0 #17111a;
+    box-shadow: 10px 10px 0 #17111a;
     filter: contrast(150%);
     margin-bottom: 20px;
-    border: 5px solid #17111a;
 }
 
 
-.project-view .icon:hover {
+.project-view .project:hover {
     display: block;
     box-shadow: 10px 
     10px 0 #17111a;
