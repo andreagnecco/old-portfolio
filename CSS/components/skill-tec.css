@@ -1,9 +1,11 @@
 .skill-tec {
     display: flex;
+
 }
 
 .skill-tec .icon {
     margin-right: 25px;
+    width: 80px;
 }
 
 .skill-tec .icon:hover {
@@ -16,7 +18,7 @@
     justify-content: space-around;
 }
 
-.right .title {
+.skill-tec .title {
     font-family: "Press Start 2P", sans-serif;
     font-size: 20px;
     color: #17111a;
