@@ -1,6 +1,7 @@
 .project-view {
     display: inline-flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .project-view .icon {

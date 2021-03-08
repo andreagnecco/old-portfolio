@@ -6,49 +6,51 @@
             
         <link rel="stylesheet" href="CSS/index.css">
         <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/components/header.css">
-        <link rel="stylesheet" href="CSS/components/banner.css">
-        <link rel="stylesheet" href="CSS/components/section.css">
-        <link rel="stylesheet" href="CSS/components/button.css">
+        <link rel="stylesheet" href="CSS/components/header-container.css">
+        <link rel="stylesheet" href="CSS/components/banner-container.css">
+        <link rel="stylesheet" href="CSS/components/section-container.css">
+        <link rel="stylesheet" href="CSS/components/link-button.css">
         <link rel="stylesheet" href="CSS/components/main-title.css">
-        <link rel="stylesheet" href="CSS/components/subtitle.css">
-        <link rel="stylesheet" href="CSS/components/box.css">
-        <link rel="stylesheet" href="CSS/components/action.css">
+        <link rel="stylesheet" href="CSS/components/main-subtitle.css">
+        <link rel="stylesheet" href="CSS/components/box-container.css">
+        <link rel="stylesheet" href="CSS/components/link-action.css">
         <link rel="stylesheet" href="CSS/components/skill-tec.css">
         <link rel="stylesheet" href="CSS/components/wrapper-skill.css">
         <link rel="stylesheet" href="CSS/components/progress-bar.css">
         <link rel="stylesheet" href="CSS/components/project-view.css">
+        <link rel="stylesheet" href="CSS/components/wrapper-project.css">
+
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet"> 
     </head>
 <body>
-    <header class="header">
+    <header-container class="header-container">
         <img id="avatar" src="assets/img/avatar.png">
 
         <nav>
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="en">Download CV</a>
+            <a class="link-action" href="" lang="en">Skills</a>
+            <a class="link-action" href="">Projetos</a>
+            <a class="link-action" href="">Sobre</a>
+            <a class="link-action" href="">Contatos</a>
+            <a class="link-button" href="" lang="en">Download CV</a>
         </nav>
-    </header>
+    </header-container>
 
-    <section class="banner">
+    <section-container class="banner-container">
         <div class="wrapper">
-            <div class="box">
+            <div class="box-container">
                 <h1 class="main-title">Andrea Gnecco</h1>
-                <h2 class="subtitle">Graphic Designer</h2>
+                <h2 class="main-subtitle">Graphic Designer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="">Contatos</a>
+                <a class="link-button" href="" lang="en">Download CV</a>
+                <a class="link-button" href="">Contatos</a>
             </div>
         </div>
-    </section>
+    </section-container>
 
-    <section class="section">
+    <section-container class="section-container">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -124,8 +126,8 @@
                 </div>
             </article>
         </div>
-    </section>
-    <section class="section -second">
+    </section-container>
+    <section-container class="section-container -second">
         <h2 class="main-title -second">Projects</h2>
         <div class="wrapper-project">
             <a href="" class="project-view">
@@ -141,6 +143,6 @@
                 <h3 class="title">Clube Car Multimarcas</h3>
             </a>
         </div>
-    </section>
+    </section-container>
 </body>
 </html>

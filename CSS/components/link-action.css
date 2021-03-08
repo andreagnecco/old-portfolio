@@ -1,4 +1,4 @@
-.action {
+.link-action {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -9,11 +9,11 @@
     margin-right: 30px;
 }
 
-.action:hover {
+.link-action:hover {
     opacity: 0.6;
 }
 
-.action::before {
+.link-action::before {
     content: "";
     background-color: #ffbf36;
     width: 10px;
