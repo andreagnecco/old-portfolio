@@ -1,0 +1,65 @@
+.main-carousel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.main-carousel::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: calc(100% - 80px);
+    left: 40px;
+    top: 45px;
+    background-color: #FFF;
+}
+
+.main-carousel::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100%);
+    left: 0;
+    top: 45px;
+    border: 2px dashed #FFF;
+}
+
+.main-carousel .button-arrow.-left {
+    position: absolute;
+    left: 15px;
+    bottom: 140px;
+}
+
+.main-carousel .button-arrow.-right {
+    position: absolute;
+    right: 15px;
+    bottom: 140px;
+}
+
+
+
+.main-carousel .title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #FFF;
+
+}
+
+.main-carousel .items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+
+}

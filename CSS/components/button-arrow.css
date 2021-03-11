@@ -5,6 +5,7 @@
     background-color: #ffbf36;
     box-shadow: 5px 5px 0 #3c3b39;
     cursor: pointer;
+    transition: 150ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
 }
 
 .button-arrow:hover {
@@ -20,8 +21,6 @@
     display: block;
     box-sizing: border-box;
     content: "";
-    width: 15px;
-    height: 15px;
     border: 15px solid transparent;
     border-left: 28px solid #FFF;
     transform: translateX(3px);

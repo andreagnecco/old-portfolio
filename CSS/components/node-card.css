@@ -1,0 +1,26 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-card:hover {
+    transform: scale(1.05);
+}
+
+.node-card::before {
+    content: "";
+    box-sizing: border-box;
+    height: 0px;
+    width: 35px;
+    border: 2.5px dashed #FFF;
+    transform: rotate(-90deg) translateX(-55px);
+}
+
+
+.node-card .logo {
+    padding: 20px;
+    margin-top: 50px;
+    border: 5px solid #FFF;
+    box-shadow: 10px 10px 0 #FFF;
+}
