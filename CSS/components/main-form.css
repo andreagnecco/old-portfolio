@@ -1,6 +1,11 @@
 .main-form {
-    padding-left: 40px;
-    padding-right: 40px;
+    background-color: #3c3b39;
+    border-color: #FFF;
+    padding: 50px 40px;
+}
+
+.main-form .main-title.-second {
+    margin-bottom: 50px;
 }
 
 .main-form .main-input {
