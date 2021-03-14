@@ -11,9 +11,10 @@
 
 .section-container.-second {
     background-color: #3c3b39;
-    border-color: #ffbf36;
+    border-color: #FFF;
 }
 
 .section-container.-third {
     background-color: #17111a;
+    border-bottom-color: #FFF;
 }

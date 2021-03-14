@@ -16,3 +16,12 @@
     transform: scale(1.05);
     opacity: 0.9;
 }
+
+.link-button.-send {
+    width: 100%;
+}
+
+.link-button.-send:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}

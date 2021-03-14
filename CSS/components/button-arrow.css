@@ -23,9 +23,9 @@
     content: "";
     border: 15px solid transparent;
     border-left: 28px solid #FFF;
-    transform: translateX(3px);
+    transform: translateX(10px);
 }
 
 .button-arrow.-left::before {
-    transform: rotate(180deg) translateX(15px);
+    transform: rotate(180deg) translateX(10px);
 }
