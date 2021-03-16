@@ -25,3 +25,10 @@
     transform: scale(1.01);
     cursor: pointer;
 }
+
+.link-button.-backtop {
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    background-color: #3c3b39;
+}
