@@ -9,3 +9,9 @@ body, h1, h2, h3, button, figure, input {
 	font-family: 'Fira Code', Arial, Helvetica, sans-serif;
 }
 
+progress {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+}
