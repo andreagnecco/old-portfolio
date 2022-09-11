@@ -2,7 +2,7 @@
     background-image: url(../../assets/img/photo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 685px;
+    height: 24rem;
     border-bottom: 10px solid #17111a;
     padding-top: 115px;
     padding-left: 90px;
@@ -14,11 +14,9 @@
     width: 630px;
 }
 
-.banner-container .box-container {
-    margin-bottom: 38px;
-}
-
 .banner-container .navigation {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    gap: 1rem;
+    padding: 0 44px 0 44px ;
+    grid-auto-flow: column;
 }

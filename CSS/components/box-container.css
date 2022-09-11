@@ -1,11 +1,4 @@
 .box-container {
-    display: inline-block;
-    background-color: #3c3b39;
-    box-shadow: 10px 10px 0 #17111a;
-    text-align: center;
-    padding: 42px 44px;
-}
-
-.box-container .main-title {
-    margin-bottom: 28px;
+    display: inline-block;;
+    padding: 24px 44px;
 }
