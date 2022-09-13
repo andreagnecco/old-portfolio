@@ -5,6 +5,11 @@
     border-bottom: 10px solid #17111a;
 }
 
+.section-container a {
+    font-weight: 900;
+    text-decoration-color: #17111a;
+}
+
 .section-container .main-title {
     margin-bottom: 60px;
 }
